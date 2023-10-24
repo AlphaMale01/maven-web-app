@@ -11,7 +11,7 @@ pipeline{
         stage('cloning git'){
 			steps{
 				echo 'cloning starts'
-                git 'GIT_REPO_URL'
+                 git "${GIT_REPO_URL}"
 			}
 		}
 		stage('Building with maven'){
