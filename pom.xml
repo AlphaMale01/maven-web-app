@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>4.0.1-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://172.31.60.237:4000/</sonar.host.url>
+		<sonar.host.url>http://172.31.87.5:4000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin123</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -90,13 +90,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Acada Learning Releases Nexus Repository</name>
-	      <url>http://172.31.60.237:5000/repository/alpha_repo_releases/</url>
+	      <url>http://172.31.87.5:5000/repository/alpha_repo_release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Acada Learning Snapshot Nexus Repository</name>
-	      <url>http://172.31.60.237:5000/repository/alpha_repo_snapshots/</url>
+	      <url>http://172.31.87.5:5000/repository/alpha_repo_snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
